@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DynamicUtils</id>
+        <version>$version$</version>
+        <title>DynamicUtils</title>
+        <authors>Glenn Block, Alexander Zeitler</authors>
+        <owners>Glenn Block</owners>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+        <projectUrl>https://github.com/WebApiContrib/CollectionJson</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Includes classes around DynamicObject</description>
+        <summary>An object model and helpers extending DynamicObject to handle dynamic properties.</summary>
+        <copyright>2014 Glenn Block</copyright>
+        <tags>DynamicObject</tags>
+    </metadata>
+    <files>
+        <file src="bin\Release\DynamicUtils.dll" target="lib\portable-net40+sl5+win8+wp8+monotouch+monoandroid" />
+    </files>
+</package>
