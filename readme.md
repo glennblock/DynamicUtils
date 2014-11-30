@@ -1,5 +1,14 @@
 # DynamicUtils
-An object model and helpers extending DynamicObject to handle dynamic properties.
+An object model and helpers for creating hybrid dynamic objects.
+
+## Why do I need this?
+```ExpandoObject``` in .NET is sealed and not designed for derivers. You can inherit from ```DynamicObject``` but that requires a bunch of heavy lifting:
+
+Dynamic Utils provides the following:
+* A simple utility class you can derive from and which will make any object Dynamic. 
+* Allows you to mix dynamic and static members
+* Provides helpers for programatically accessing members without having to cast to Dynamic.
+* Provides helpers for making the objects serialization friendly. 
 
 ## Nuget
 `Install-Package DynamicUtils`
