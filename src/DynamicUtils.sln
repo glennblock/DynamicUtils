@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicUtils", "DynamicUtils\DynamicUtils.csproj", "{4E94859E-2F73-4DA3-B5EC-7313C0059939}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{76A95318-3694-46E3-B2AA-4A975AD92B1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicUtils.Tests", "DynamicUtils.Tests\DynamicUtils.Tests.csproj", "{6970C6F4-CA3A-437F-8A45-26D5FA834849}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicUtils.Tests", "..\test\DynamicUtils.Tests\DynamicUtils.Tests.csproj", "{6970C6F4-CA3A-437F-8A45-26D5FA834849}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
