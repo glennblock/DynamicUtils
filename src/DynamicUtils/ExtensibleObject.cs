@@ -6,7 +6,7 @@ namespace DynamicUtils
 {
     public abstract class ExtensibleObject : DynamicObject
     {
-        public ExtensibleObject()
+        protected ExtensibleObject()
         {
             Members = new Dictionary<string, object>(StringComparer.CurrentCultureIgnoreCase);
         }
